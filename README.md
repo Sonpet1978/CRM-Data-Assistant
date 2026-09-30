@@ -2,6 +2,12 @@
 
 ### AI Developer Toolkit for Microsoft Dynamics 365 & Dataverse
 
+![CRM Data Assistant — AI Toolkit for Dynamics 365](CrmDataPicEng.png)
+
+<p align="center">
+  <strong>🚀 Private Beta</strong> &nbsp;•&nbsp; <strong>🎥 Demo coming soon</strong>
+</p>
+
 **Turn natural-language requirements into CRM-aware developer assets using your actual metadata.**
 
 CRM Data Assistant is a Windows desktop toolkit built for Microsoft Dynamics 365 / Dataverse developers, consultants, and technical teams. It combines AI with CRM metadata so generated output can reflect the entities, fields, and relationships in your environment.
