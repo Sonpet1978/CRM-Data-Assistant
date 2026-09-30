@@ -5,7 +5,7 @@
 ![CRM Data Assistant — AI Toolkit for Dynamics 365](CrmDataPicEng.png)
 
 <p align="center">
-  <strong>🚀 Private Beta</strong> &nbsp;•&nbsp; <strong>🎥 Demo coming soon</strong>
+  <strong>🚀 Private Beta</strong> &nbsp;•&nbsp; <a href="Video.mp4"><strong>🎥 Watch Demo</strong></a>
 </p>
 
 **Turn natural-language requirements into CRM-aware developer assets using your actual metadata.**
@@ -29,6 +29,32 @@ CRM Data Assistant is a Windows desktop toolkit built for Microsoft Dynamics 365
 | **Compare Metadata** | Compare imported CRM metadata snapshots. |
 | **Where Used** | Find where an entity or field is referenced. |
 | **History / Output / Logs** | Review generated work, files, and diagnostics. |
+
+## See it in action
+
+### Metadata Explorer
+Explore Dynamics 365 entities, fields, relationships, and option sets from one place.
+
+![CRM Data Assistant Metadata Explorer](metadata-explorer.png.png)
+
+### FetchXML Studio
+Describe the data you need in natural language and generate CRM-aware FetchXML.
+
+![CRM Data Assistant FetchXML Studio](fetchxml-studio.png.png)
+
+### Generate SQL
+Turn business requirements into SQL Server queries using CRM metadata and development context.
+
+![CRM Data Assistant SQL Generator](sql-generator.png.png)
+
+### CRM Plugin Generator
+Configure the Dynamics 365 execution pipeline and turn a business requirement into C# plugin code.
+
+![CRM Data Assistant Plugin Generator](plugin-generator.png.png)
+
+### Watch the demo
+
+▶️ **[Open the CRM Data Assistant demo video](Video.mp4)**
 
 ## Why CRM Data Assistant?
 
