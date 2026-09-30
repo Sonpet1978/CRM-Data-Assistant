@@ -121,11 +121,16 @@ Custom Dynamics 365 development and integration work is also available, includin
 
 **C# Plugins · Dataverse · FetchXML · SQL · JavaScript · CRM Integrations · Automation · Developer Tools**
 
+## Documentation
+
+- **[Getting Started](docs/getting-started.md)** — requirements, installation, first-run setup, and what to try.
+- **[Private Beta](docs/private-beta.md)** — beta access, BYOK, responsibilities, and feedback.
+- **[FAQ](docs/faq.md)** — common questions about the product and beta.
+- **[Security](SECURITY.md)** — how to handle security issues and sensitive information.
+
 ## Roadmap for this repository
 
 - Add product screenshots and demo
-- Publish Getting Started documentation
-- Add Private Beta FAQ
 - Add beta registration link
 - Add feedback / issue templates
 
