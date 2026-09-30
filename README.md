@@ -5,7 +5,7 @@
 ![CRM Data Assistant — AI Toolkit for Dynamics 365](CrmDataPicEng.png)
 
 <p align="center">
-  <strong>🚀 Private Beta</strong> &nbsp;•&nbsp; <a href="Video.mp4"><strong>🎥 Watch Demo</strong></a>
+  <strong>🚀 Private Beta</strong> &nbsp;•&nbsp; <a href="https://youtu.be/9RwmgCRrrFs"><strong>🎥 Watch Demo</strong></a>
 </p>
 
 **Turn natural-language requirements into CRM-aware developer assets using your actual metadata.**
@@ -54,7 +54,7 @@ Configure the Dynamics 365 execution pipeline and turn a business requirement in
 
 ### Watch the demo
 
-▶️ **[Open the CRM Data Assistant demo video](Video.mp4)**
+▶️ **[Watch the CRM Data Assistant demo on YouTube](https://youtu.be/9RwmgCRrrFs)**
 
 ## Why CRM Data Assistant?
 
