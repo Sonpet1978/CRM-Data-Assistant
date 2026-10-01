@@ -69,7 +69,7 @@
   <h2>Join the CRM Data Assistant Private Beta</h2>
   <p>Tell us a little about how you work with Dynamics 365. Early beta access is provided to selected participants.</p>
 
-  <form class="beta-form" action="https://formspree.io/f/mdekjvwk" method="POST">
+  <form id="beta-form" class="beta-form">
     <div class="form-grid">
       <label>Full Name *<input type="text" name="full_name" autocomplete="name" required placeholder="Your name"></label>
       <label>Work Email *<input type="email" name="email" autocomplete="email" required placeholder="you@company.com"></label>
@@ -117,7 +117,6 @@
     <label class="consent"><input type="checkbox" name="beta_acknowledgement" value="accepted" required> <span>I understand that CRM Data Assistant is beta software and that generated output must be reviewed and tested before production use.</span></label>
 
     <input type="hidden" name="_subject" value="New CRM Data Assistant Private Beta Registration">
-    <input type="hidden" name="_next" value="https://sonpet1978.github.io/CRM-Data-Assistant/thanks.html">
     <input type="hidden" name="source" value="CRM Data Assistant Landing Page">
     <button class="btn primary submit-btn" type="submit">🚀 Join Private Beta</button>
     <p class="form-note">Please do not submit API keys, passwords, connection strings, customer data or other secrets.</p>
@@ -128,5 +127,18 @@
 </main>
 
 <footer><strong>CRM Data Assistant</strong><span>v1.0.0 Beta · © 2026 CRM Data Assistant. All rights reserved.</span><a href="https://github.com/Sonpet1978/CRM-Data-Assistant">GitHub</a></footer>
+<script>
+  window.formspree = window.formspree || function () {
+    (formspree.q = formspree.q || []).push(arguments);
+  };
+  formspree('initForm', {
+    formElement: '#beta-form',
+    formId: 'mdekjvwk',
+    onSuccess: function () {
+      window.location.href = 'thanks.html';
+    }
+  });
+</script>
+<script src="https://unpkg.com/@formspree/ajax@1" defer></script>
 </body>
 </html>
