@@ -64,11 +64,64 @@
   <div class="checklist"><p>✓ Windows 64-bit</p><p>✓ Your own OpenAI API key</p><p>✓ Supported CRM metadata SQL source</p><p>✓ Private beta access</p></div>
 </section>
 
-<section id="beta" class="cta">
+<section id="beta" class="cta beta-section">
   <span class="pill">PRIVATE BETA</span>
-  <h2>Want to try CRM Data Assistant?</h2>
-  <p>Join the private beta for early access and help shape the next version.</p>
-  <a class="btn primary disabled" href="#" aria-disabled="true">Beta Registration — Coming Next</a>
+  <h2>Join the CRM Data Assistant Private Beta</h2>
+  <p>Tell us a little about how you work with Dynamics 365. Early beta access is provided to selected participants.</p>
+
+  <form class="beta-form" action="https://formspree.io/f/mdekjvwk" method="POST">
+    <div class="form-grid">
+      <label>Full Name *<input type="text" name="full_name" autocomplete="name" required placeholder="Your name"></label>
+      <label>Work Email *<input type="email" name="email" autocomplete="email" required placeholder="you@company.com"></label>
+      <label>Company / Freelance<input type="text" name="company" autocomplete="organization" placeholder="Company or freelance"></label>
+      <label>Role *
+        <select name="role" required>
+          <option value="" selected disabled>Select your role</option>
+          <option>Dynamics 365 Developer</option><option>Technical Consultant</option><option>Solution Architect</option><option>Administrator</option><option>Team Lead / Manager</option><option>Other</option>
+        </select>
+      </label>
+      <label>Dynamics 365 / Dataverse experience
+        <select name="experience">
+          <option value="" selected>Select experience</option><option>Less than 1 year</option><option>1–3 years</option><option>3–5 years</option><option>5+ years</option>
+        </select>
+      </label>
+      <label>Preferred pricing model
+        <select name="preferred_pricing">
+          <option value="" selected>Not sure yet</option><option>Monthly subscription</option><option>Annual subscription</option><option>One-time license</option>
+        </select>
+      </label>
+    </div>
+
+    <fieldset>
+      <legend>Which features interest you most?</legend>
+      <div class="checks">
+        <label><input type="checkbox" name="features" value="Metadata Explorer"> Metadata Explorer</label>
+        <label><input type="checkbox" name="features" value="FetchXML Studio"> FetchXML Studio</label>
+        <label><input type="checkbox" name="features" value="SQL Generator"> SQL Generator</label>
+        <label><input type="checkbox" name="features" value="CRM Plugin Generator"> CRM Plugin Generator</label>
+        <label><input type="checkbox" name="features" value="JavaScript Ribbon"> JavaScript Ribbon</label>
+        <label><input type="checkbox" name="features" value="Developer Utilities"> Developer Utilities</label>
+      </div>
+    </fieldset>
+
+    <label>What would you like to use CRM Data Assistant for?
+      <textarea name="use_case" rows="4" placeholder="Tell us about the Dynamics 365 work you want to speed up..."></textarea>
+    </label>
+
+    <label>What monthly price would feel reasonable?
+      <select name="reasonable_monthly_price">
+        <option value="" selected>Prefer not to say / Not sure yet</option><option>€10–20 / month</option><option>€20–30 / month</option><option>€30–50 / month</option><option>€50+ / month</option><option>I prefer a one-time license</option>
+      </select>
+    </label>
+
+    <label class="consent"><input type="checkbox" name="beta_acknowledgement" value="accepted" required> <span>I understand that CRM Data Assistant is beta software and that generated output must be reviewed and tested before production use.</span></label>
+
+    <input type="hidden" name="_subject" value="New CRM Data Assistant Private Beta Registration">
+    <input type="hidden" name="source" value="CRM Data Assistant Landing Page">
+    <button class="btn primary submit-btn" type="submit">🚀 Join Private Beta</button>
+    <p class="form-note">Please do not submit API keys, passwords, connection strings, customer data or other secrets.</p>
+  </form>
+
   <small>The installer is not publicly distributed. Approved beta participants receive access instructions directly.</small>
 </section>
 </main>
